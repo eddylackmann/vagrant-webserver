@@ -61,24 +61,24 @@ echo " "
 echo " "
 echo " "
 echo "+---------------------------+"
-echo "+ install PHP 7.2 and libs  +"
+echo "+ install PHP 7.3 and libs  +"
 echo "+---------------------------+"
 echo " "
 echo " "
 echo " "
 sleep 3s;
-apt-get install php7.2-fpm -y
-apt-get install php7.2-mbstring -y
+apt-get install php7.3-fpm -y
+apt-get install php7.3-mbstring -y
 apt-get install php-curl -y
 apt-get install php-pclzip -y
-apt-get install php7.2-xml
-cp /var/www/configuration/php.ini /etc/php/7.2/fpm/php.ini
+apt-get install php7.3-xml
+cp /var/www/configuration/php.ini /etc/php/7.3/fpm/php.ini
 
 echo " "
 echo " "
 echo " "
 echo " "
-echo "PHP 7.2, mbstring, curl, pclzip installed"
+echo "PHP 7.3, mbstring, curl, pclzip installed"
 echo " ########################################"
 
 # Nginx
