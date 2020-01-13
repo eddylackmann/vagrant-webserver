@@ -2,7 +2,7 @@
 # Vagrant server configuration
 #
 
-# You don't need to edit this file (unless you updated some how to php > 7.2).
+# You don't need to edit this file (unless you updated some how to php > 7.3).
 
 #
 
@@ -30,7 +30,7 @@ server {
   #
   location ~ \.php$ {
 		include snippets/fastcgi-php.conf;
-		fastcgi_pass unix:/run/php/php7.2-fpm.sock;
+		fastcgi_pass unix:/run/php/php7.3-fpm.sock;
 	}
 
 	# deny access to .htaccess files, if Apache's document root
